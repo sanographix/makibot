@@ -11,6 +11,9 @@ module.exports = (robot) ->
   robot.respond /PING$/i, (msg) ->
     msg.send "PONG"
 
+  robot.hear /PING$/i, (msg) ->
+    msg.send "PONG"
+
   robot.respond /ADAPTER$/i, (msg) ->
     msg.send robot.adapterName
 
@@ -23,4 +26,3 @@ module.exports = (robot) ->
   robot.respond /DIE$/i, (msg) ->
     msg.send "Goodbye, cruel world."
     process.exit 0
-
