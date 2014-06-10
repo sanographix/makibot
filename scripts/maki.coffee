@@ -184,5 +184,4 @@ cure_nishikino = [
 
 module.exports = (robot) ->
   robot.hear /@maki/, (msg) ->
-    msg.send "@#{msg.message.user.name}"
     msg.send msg.random cure_nishikino
