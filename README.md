@@ -1,8 +1,8 @@
-# Hubot-Maki
+# Makibot
 
-Nishikino Maki bot
+Makibot is Nishikino Maki bot
 
-<img src="https://pbs.twimg.com/profile_images/468568771884355584/Lcb0O4VU.jpeg" width="150">
+![](https://31.media.tumblr.com/4d20232bef50e3204cdacecaaa585755/tumblr_inline_n7pekiSsG31qaxsyz.png)
 
 # Deploy Hubot to Heroku
 
@@ -10,7 +10,7 @@ Nishikino Maki bot
 
 # Command
 
-- @maki
+- `@maki`
 	- ランダムで発言する
-- makibot lovelive
+- `hubot lovelive`
 	- lovelivegif.tumblr.com からランダムで表示
