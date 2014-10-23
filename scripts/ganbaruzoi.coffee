@@ -1,5 +1,8 @@
 # Description:
 #   今日も一日がんばるぞい
+#
+# Commands:
+#   がんばるぞい - がんばるぞい！
 
 module.exports = (robot) ->
   robot.hear /がんばるぞい|頑張るぞい/, (msg) ->

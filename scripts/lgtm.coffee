@@ -2,7 +2,7 @@
 #   LGTM
 #
 # Commands:
-#   hubot LGTM - LGTM
+#   LGTM - LGTM画像をランダムで出す
 
 util = require 'util'
 

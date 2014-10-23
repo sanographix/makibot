@@ -1,5 +1,5 @@
 # Description:
-#   Pulls GIFs from various insane tumblrs
+#   lovelivegif.tumblr.comからラブライブgifアニメ出す
 #
 # Dependencies:
 #   "tumblrbot": "0.1.0"
@@ -8,14 +8,8 @@
 #   HUBOT_TUMBLR_API_KEY - A Tumblr OAuth Consumer Key will work fine
 #
 # Commands:
-#   hubot gif me - Returns a random gif from a random blog
-#   hubot food mosh - Returns a random gif from foodmosh.tumblr.com
-#   hubot fluxmachine - Returns a random gif from fluxmachine.tumblr.com
-#   hubot android - Returns a random gif from milosrajkovic.tumblr.com
-#   hubot nic cage me - Returns a random gif from gifolas-cage.tumblr.com
-#
-# Author:
-#   iangreenleaf
+#   llgif / lovelivegif - ラブライブgifアニメをランダムで出す
+
 
 tumblr = require "tumblrbot"
 SOURCES = {
@@ -27,6 +21,6 @@ getGif = (blog, msg) ->
     msg.send post.photos[0].original_size.url
 
 module.exports = (robot) ->
-  robot.respond /lovelive/i, (msg) ->
+  robot.hear /llgif|lovelivegif/i, (msg) ->
     blog = msg.random Object.keys(SOURCES)
     getGif blog, msg
