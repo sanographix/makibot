@@ -296,7 +296,7 @@ module.exports = (robot) ->
   robot.hear /うみ|海未/i, (msg) ->
     msg.send msg.random [
       "脱いで、うみちゃん。"
-  ]
+    ]
 
   robot.hear /Pile/i, (msg) ->
     msg.send msg.random [
@@ -324,4 +324,3 @@ module.exports = (robot) ->
       "アイドル活動を通じて自分達の通う学校を盛り上げようと頑張る9人の少女達の物語、それが〜♡",
       "アイドルには芸術的センスも要求されます"
     ]
-
