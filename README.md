@@ -10,7 +10,10 @@ Makibot is Nishikino Maki bot
 
 # Command
 
-- `@maki`
+- `@maki` / `:maki`
 	- ランダムで発言する
-- `hubot lovelive`
+- `llgif` / `lovelivegif`
 	- lovelivegif.tumblr.com からランダムで表示
+- `makigif`
+    - 西木野真姫が映ってるgifアニメをランダムで表示
+- あとラブライブっぽい単語に反応します
