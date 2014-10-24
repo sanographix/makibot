@@ -1,3 +1,7 @@
-node_modules
 .DS_Store*
-!/node_modules/hubot-weather-ja
+/node_modules/cron
+/node_modules/hubot
+/node_modules/hubot-scripts
+/node_modules/hubot-slack
+/node_modules/tumblrbot
+/node_modules/.bin/
