@@ -25,11 +25,7 @@
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-slack": "~2.1.0",
     "tumblrbot": "0.1.0",
-    "cron": "~1.0.4",
-    "hubot-weather-ja": "0.0.1",
-    "xml2json": "~0.4.0",
-    "async": "~0.7.0",
-    "date-utils": "~1.2.15"
+    "cron": "~1.0.4"
   },
   "engines": {
     "node": ">= 0.8.x",
