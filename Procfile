@@ -1,1 +1,1 @@
-web: bin/hubot --adapter slack --name makibot --alias 真姫
+web: bin/hubot --adapter slack
