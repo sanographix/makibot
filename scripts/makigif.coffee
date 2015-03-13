@@ -90,5 +90,6 @@ makigif = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /makigif/, (msg) ->
-    msg.send msg.random makigif
+  robot.hear /^(まき|maki|マッキー|西木野|真姫).*gif/i, (msg) ->
+    gifs = msg.random makigif
+    msg.send "はいどうぞ💖 #{gifs}"
